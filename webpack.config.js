@@ -13,5 +13,11 @@ module.exports = {
             jQuery: "jquery"
         }),
     ],
-    mode: 'development'
+    mode: 'development',
+    devServer: {
+      static: {
+        directory: __dirname
+      },
+      port: 8080
+    }
 };
