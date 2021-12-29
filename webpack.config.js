@@ -1,11 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
-<<<<<<< HEAD
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
-=======
 const WebpackPwaManifest = require("webpack-pwa-manifest");
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
->>>>>>> feature/pwa
 
 module.exports = {
     entry: {
